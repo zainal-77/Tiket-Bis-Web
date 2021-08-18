@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+<link href="img/logo.png" rel="icon" />
+
+<title> Bus ID - Konfirmasi Detail</title>
+<meta name="description" content="">
+
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900' type='text/css'>
+<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="vendor/font-awesome/css/all.min.css" />
+<link rel="stylesheet" type="text/css" href="vendor/owl.carousel/assets/owl.carousel.min.css" />
+<link rel="stylesheet" type="text/css" href="vendor/owl.carousel/assets/owl.theme.default.min.css" />
+<link rel="stylesheet" href="css/tooplate-style.css">
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
+<link rel="stylesheet" href="css/fontAwesome.css">
+
+</head>
+<body>
+  <!-- Dewa Shafa'an Sury-05211940000098 -->
+
+  <!-- Preloader -->
+<div id="preloader"><div data-loader="dual-ring"></div></div><!-- Preloader End -->
+
+  <!-- Doc Wrapper -->
+<div id="main-wrapper">
+
+  <!-- Header -->
+  <section class="page-heading" id="top">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="logo">
+                    <img src="img/logo.png" alt="Flight Template">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="page-direction-button">
+                    <a href="index.html"><i class="fa fa-home"></i>Go Back Home</a>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+    <section class="page-header page-header-text-light bg-secondary">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-8">
+            <h1>Konfirmasi Detail</h1>
+          </div>
+          <div class="col-md-4">
+            <ul class="breadcrumb justify-content-start justify-content-md-end mb-0">
+              <li><a href="search_result.html">Daftar Bus</a></li>
+              <li class="active">Konfirmasi Detail</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Header end -->
+    
+    <!-- Content-->
+    <div id="content">
+      <section class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="bg-light shadow-md rounded p-3 p-sm-4 confirm-details">
+              <h2 class="text-6 mb-3">Konfirmasi Detail</h2>
+              <div class="card">
+                <div class="card-header">
+                  <div class="row align-items-center trip-title">
+                    <div class="col-5 col-sm-auto text-center text-sm-left">
+                      <h5 class="m-0 trip-place">Jakarta</h5>
+                    </div>
+                    <div class="col-2 col-sm-auto text-8 text-black-50 text-center trip-arrow">➝</div>
+                    <div class="col-5 col-sm-auto text-center text-sm-left">
+                      <h5 class="m-0 trip-place">Bandung</h5>
+                    </div>
+                    <div class="col-12 mt-1 d-block d-md-none"></div>
+                    <div class="col-6 col-sm col-md-auto text-3 date">18 November 2020, Rabu</div>
+                    <div class="col-6 col-sm col-md-auto text-right order-sm-1"><a class="text-1" data-toggle="modal" data-target="#fare-rules"  href="">Fare Rules</a></div>
+                    <div class="col col-md-auto text-center ml-auto order-sm-0"><span class="badge badge-success py-1 px-2 font-weight-normal text-1">Refundable</span></div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div class="row align-items-sm-center flex-row">
+                    <div class="col-12 col-sm-3 mb-3 mb-sm-0"> <span class="text-3 text-dark operator-name">Luxury &amp; Travel Agency</span> <span class="text-muted d-block">AC Sleeper</span> </div>
+                    <div class="col col-sm-3 text-center time-info"> <span class="text-5 text-dark">12:00</span> <small class="text-muted d-block">Jakarta</small> </div>
+                    <div class="col col-sm-3 text-center d-none d-sm-block time-info"> <span class="text-3 duration">4h 32m</span> <small class="text-muted d-block">6 Stops</small> </div>
+                    <div class="col col-sm-3 text-center time-info"> <span class="text-5 text-dark">16:32</span> <small class="text-muted d-block">Surat</small> </div>
+                    <div class="col-12 mt-3 text-dark">No Kursi: <span class="bg-success text-light rounded px-2">12</span> <span class="bg-success text-light rounded px-2">13</span></div>
+                  </div>
+                  
+                  <!-- Fare Rules-->
+                  <div id="fare-rules" class="modal fade" role="dialog" aria-hidden="true">
+                    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title">Fare Rules</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+                        </div>
+                        <div class="modal-body">
+                          <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item"><a class="nav-link active" id="first-tab" data-toggle="tab" href="#first" role="tab" aria-controls="first" aria-selected="false">Pembatalan</a></li>
+                            <li class="nav-item"><a class="nav-link" id="second-tab" data-toggle="tab" href="#second" role="tab" aria-controls="second" aria-selected="false">Batasan Barang Bawaan</a></li>
+                          </ul>
+                          <div class="tab-content my-3" id="myTabContent">
+                            <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
+                              <div class="table-responsive-md">
+                                <table class="table table-hover table-bordered bg-light">
+                                  <thead>
+                                    <tr>
+                                      <td>Jam Sebelum Berangkat</td>
+                                      <td class="text-center">Persen Refund</td>
+                                    </tr>
+                                  </thead>
+                                  <tbody>
+                                    <tr>
+                                      <td>Sebelum 0 jam.</td>
+                                      <td class="text-center">0%</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Sebelum 24 jam.</td>
+                                      <td class="text-center">30%</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Sebelum 48 jam.</td>
+                                      <td class="text-center">60%</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Sebelum 60 jam.</td>
+                                      <td class="text-center">75%</td>
+                                    </tr>
+                                    <tr>
+                                      <td>Melebihi 60 jam . </td>
+                                      <td class="text-center">80%</td>
+                                    </tr>
+                                  </tbody>
+                                </table>
+                                <p class="font-weight-bold">Terms &amp; Conditions</p>
+                                <ul>
+                                  <li>Perubahan diperkenankan 24 jam sebelum keberangkatan. Tidak ada perubahan yang diizinkan setelah itu.</li>
+                                  <li>Tarif berlaku per kursi.</li>
+                                  <li>Refund tidak berlaku pada tiket dengan diskon.</li>
+                                  <li>Pengguna tunduk dengan kebijakan layanan.</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
+                              <table class="table table-hover table-bordered bg-light">
+                                <thead>
+                                  <tr>
+                                    <th>&nbsp;</th>
+                                    <td class="text-center">Per Kursi</td>
+                                  </tr>
+                                </thead>
+                                <tbody>
+                                  <tr>
+                                    <td>Adult</td>
+                                    <td class="text-center">5 Kg</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Child</td>
+                                    <td class="text-center">5 Kg</td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div><!-- Fare Rules end -->
+                  
+                </div>
+              </div>
+              <div class="alert alert-info mt-4"> <span class="badge badge-info">NOTE:</span> Tarif dan biaya tambahan ditentukan oleh operator bus. </div>
+              <h2 class="text-6 mb-3 mt-5">Detail Penumpang - <span class="text-3"><a data-toggle="modal" data-target="#login-signup" href="#" title="Login / Sign up">Login</a> to book faster</span></h2>
+              <p class="font-weight-600">Detail Kontak</p>
+              <div class="form-row">
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" id="email" required placeholder="Masukkan Email" type="text">
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input class="form-control" data-bv-field="number" id="mobileNumber" required placeholder="Masukkan No Telepon" type="text">
+                </div>
+              </div>
+              <p class="text-info">Detail booking akan dikirim ke email dan nomor telepon.</p>
+              <p class="font-weight-600">Dewasa 1</p>
+              <div class="form-row">
+                <div class="col-sm-2 form-group">
+                  <select class="custom-select" id="title" required="">
+                    <option value="">Title</option>
+                    <option>Mr</option>
+                    <option>Ms</option>
+                    <option>Mrs</option>
+                  </select>
+                </div>
+                <div class="col-sm-4 form-group">
+                  <input class="form-control" id="firstName" required placeholder="Masukkan Nama Depan" type="text">
+                </div>
+                <div class="col-sm-4 form-group">
+                  <input class="form-control" id="lastName" required placeholder="Nama Belakang" type="text">
+                </div>
+                <div class="col-sm-2 form-group">
+                  <input class="form-control" id="age" required placeholder="Umur" type="text">
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Side Panel (Fare Details)
+          ============================================= -->
+          <aside class="col-lg-4 mt-4 mt-lg-0">
+            <div class="bg-light shadow-md rounded p-3">
+              <h3 class="text-5 mb-3">Detail Tarif</h3>
+              <ul class="list-unstyled">
+                <li class="mb-2">Tarif Dasar <span class="float-right text-4 font-weight-500 text-dark">$175</span></li>
+                <li class="mb-2">Taxes & Fees <span class="float-right text-4 font-weight-500 text-dark">$25</span></li>
+                <li class="mb-2">Asuransi <span class="float-right text-4 font-weight-500 text-dark">$50</span></li>
+              </ul>
+              <div class="text-dark bg-light-4 text-4 font-weight-600 p-3"> Total Amount <span class="float-right text-6">$300</span> </div>
+              <h3 class="text-4 mb-3 mt-4">Kode Promo</h3>
+              <div class="input-group form-group">
+                <input class="form-control" placeholder="Promo Code" aria-label="Promo Code" type="text">
+                <span class="input-group-append">
+                <button class="btn btn-secondary" type="submit">Gunakan</button>
+                </span> </div>
+              <ul class="promo-code pre-scrollable">
+                <li><span class="d-block text-3 font-weight-600">HONEY</span>Diskon sampai $500 untuk pesananmu. Buruan! Penawaran terbatas. <a class="text-1" href="">Terms & Conditions</a></li>
+                <li><span class="d-block text-3 font-weight-600">HOTOFFER</span>Diskon sampai $500 untuk pesananmu. Buruan! Penawaran terbatas. <a class="text-1" href="">Terms & Conditions</a></li>
+                <li><span class="d-block text-3 font-weight-600">SUMMEROFFER</span>Diskon sampai $500 untuk pesananmu. Buruan! Penawaran terbatas. <a class="text-1" href="">Terms & Conditions</a></li>
+              </ul>
+                <button class="btn btn-primary btn-block" onclick="location.href='payment.html';" type="submit">Proses ke Pembayaran</button>
+            </div>
+          </aside><!-- Side Panel -->
+        </div>
+      </section>
+  </div><!-- Content end -->
+  
+  <!-- Footer
+  ============================================= -->
+  <footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="primary-button">
+                    <a href="#" class="scroll-top">Back To Top</a>
+                </div>
+                <div class="primary-button">
+                    <a href="companyprofil.html" class="">Profil Perusahaan</a>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/tooplate"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                    <li><a href="#"><i class="fa fa-behance"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-12">
+                <p>Copyright &copy; 2020 BUS ID TRAVEL COMPANY
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer end -->
+  
+</div><!-- Document Wrapper end -->
+
+<!-- Back to Top
+============================================= -->
+<a id="back-to-top" data-toggle="tooltip" title="Back to Top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a>
+
+
+<!-- Zainal Abidin-05211940000102 -->
+<!-- Modal Dialog - Login/Signup
+============================================= -->
+<div id="login-signup" class="modal fade" role="dialog" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content p-sm-3">
+      <div class="modal-body">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span aria-hidden="true">&times;</span> </button>
+        <ul class="nav nav-tabs" role="tablist">
+          <li class="nav-item"> <a id="login-tab" class="nav-link active text-4" data-toggle="tab" href="#login" role="tab" aria-controls="login" aria-selected="true">Login</a> </li>
+          <li class="nav-item"> <a id="signup-tab" class="nav-link text-4" data-toggle="tab" href="#signup" role="tab" aria-controls="signup" aria-selected="false">Sign Up</a> </li>
+        </ul>
+        <div class="tab-content pt-4">
+          <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+            <form id="loginForm" method="post">
+              <div class="form-group">
+                <input type="email" class="form-control" id="loginMobile" required placeholder="Mobile or Email ID">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="loginPassword" required placeholder="Password">
+              </div>
+              <div class="row mb-4">
+                <div class="col-sm">
+                  <div class="form-check custom-control custom-checkbox">
+                    <input id="remember-me" name="remember" class="custom-control-input" type="checkbox">
+                    <label class="custom-control-label" for="remember-me">Remember Me</label>
+                  </div>
+                </div>
+                <div class="col-sm text-right"> <a class="justify-content-end" href="#">Forgot Password ?</a> </div>
+              </div>
+              <button class="btn btn-primary btn-block" type="submit">Login</button>
+            </form>
+          </div>
+          <div class="tab-pane fade" id="signup" role="tabpanel" aria-labelledby="signup-tab">
+            <form id="signupForm" method="post">
+              <div class="form-group">
+                <input type="text" class="form-control" data-bv-field="number" id="signupEmail" required placeholder="Email ID">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="signupMobile" required placeholder="Mobile Number">
+              </div>
+              <div class="form-group">
+                <input type="password" class="form-control" id="signuploginPassword" required placeholder="Password">
+              </div>
+              <button class="btn btn-primary btn-block" type="submit">Signup</button>
+            </form>
+          </div>
+          <div class="d-flex align-items-center my-4">
+            <hr class="flex-grow-1">
+            <span class="mx-2" >OR</span>
+            <hr class="flex-grow-1">
+          </div>
+          <div class="row">
+            <div class="col-12 mb-3">
+              <button type="button" class="btn btn-block btn-outline-primary">Login with Facebook</button>
+            </div>
+            <div class="col-12">
+              <button type="button" class="btn btn-block btn-outline-danger">Login with Google</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><!-- Modal Dialog - Login/Signup end -->
+
+<!-- Script -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="vendor/owl.carousel/owl.carousel.min.js"></script> 
+<script src="js/theme.js">
+
+// navigation click actions 
+$('.scroll-link').on('click', function(event){
+            event.preventDefault();
+            var sectionID = $(this).attr("data-id");
+            scrollToID('#' + sectionID, 750);
+        });
+        // scroll to top action
+        $('.scroll-top').on('click', function(event) {
+            event.preventDefault();
+            $('html, body').animate({scrollTop:0}, 'slow');         
+        });
+        // mobile nav toggle
+        $('#nav-toggle').on('click', function (event) {
+            event.preventDefault();
+            $('#main-nav').toggleClass("open");
+        });
+    // scroll function
+    function scrollToID(id, speed){
+        var offSet = 0;
+        var targetOffset = $(id).offset().top - offSet;
+        var mainNav = $('#main-nav');
+        $('html,body').animate({scrollTop:targetOffset}, speed);
+        if (mainNav.hasClass("open")) {
+            mainNav.css("height", "1px").removeClass("in").addClass("collapse");
+            mainNav.removeClass("open");
+        }
+    }
+    if (typeof console === "undefined") {
+        console = {
+            log: function() { }
+        };
+    }
+</script> 
+
+</body>
+</html>
